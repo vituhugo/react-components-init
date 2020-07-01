@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Titulo() {
+function Titulo(props) {
     return (
-        <h2 className="title green-text text-darken-4"> Olá mundo! </h2>
+        <h2 className="title green-text text-darken-4">{props.texto}</h2>
     ); 
 }
 

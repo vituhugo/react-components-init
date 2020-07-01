@@ -16,7 +16,7 @@ class App extends React.Component {
         </nav>
         <div className="container">
           
-          <Titulo />
+          <Titulo texto="Tabela" />
           
           <h3 className="title green-text"> Listagem de usuários </h3>
           <table>
@@ -50,6 +50,7 @@ class App extends React.Component {
             </tbody>
           </table>
           
+          <Titulo texto="Cartões" />
           <h3 className="title green-text"> Cartões de usuários </h3>
           <div className="row">
             <div className="col s4">
