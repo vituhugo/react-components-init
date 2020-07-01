@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Titulo from './Titulo';
 class App extends React.Component {
   render() {
     return (
@@ -16,7 +16,7 @@ class App extends React.Component {
         </nav>
         <div className="container">
           
-          <h2 className="title green-text text-darken-4"> Olá mundo! </h2>
+          <Titulo />
           
           <h3 className="title green-text"> Listagem de usuários </h3>
           <table>
