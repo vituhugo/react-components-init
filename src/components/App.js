@@ -1,5 +1,13 @@
 import React from 'react';
 import Titulo from './Titulo';
+// function App() {
+//     return (
+//         <Switch url_atual={url}>
+//             <Home url="/" />
+//             <Contato url="/contato" />
+//         </Switch>
+//     );
+// }
 class App extends React.Component {
   render() {
     return (
